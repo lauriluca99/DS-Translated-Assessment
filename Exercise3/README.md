@@ -1,1 +1,1 @@
-In the ex.md file there are questions and answers of exercise 2
+In the ex.md file there are questions and answers of exercise 3
