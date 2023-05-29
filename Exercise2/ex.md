@@ -44,6 +44,6 @@
 
 4- To optimize the orders table for managing a lot of queries is possible to identify the commonly queried columns and create indexes on those columns, this can speed up the search and retrieval process. Another solution cal be to implement a caching mechanism to store frequently accessed data in memory, this can reduce the need for repeated database queries and improve overall system performance.
 
-5-
+5- There are several approaches to do it but the ones that seem to be better use distributed database systems that can distribute the data across multiple nodes or servers to allows for parallel processing and improves query performance on large datasets and split the data into smaller partitions and distribute them across multiple storage systems. This can improve query performance by allowing parallel processing and reducing the load on individual systems.
 
 
