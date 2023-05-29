@@ -1,4 +1,4 @@
-###Questions:
+### Questions:
 
 1- Can you explain the purpose of the orders_items table?
 
@@ -11,5 +11,6 @@
 5- What would you change if the amount of data is too big to run these queries? (suppose to have 500TB of data)
 
 
-###answers:
+### Answers:
+1- 
 
