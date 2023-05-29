@@ -24,4 +24,26 @@
 
 **GROUP BY** country;
 
+3-
+
+**SELECT** products.name
+
+**FROM** orders
+
+**JOIN** orders_items **ON** orders.id = orders_items.id_order
+
+**JOIN** products **ON** orders_items.id_product = products.id
+
+**JOIN** customers **ON** orders.id_customer = customers.id
+
+**WHERE** customers.country = 'Italy'
+
+**ORDER BY** products.price **DESC**
+
+**LIMIT** 1;
+
+4- To optimize the orders table for managing a lot of queries is possible to identify the commonly queried columns and create indexes on those columns, this can speed up the search and retrieval process. Another solution cal be to implement a caching mechanism to store frequently accessed data in memory, this can reduce the need for repeated database queries and improve overall system performance.
+
+5-
+
 
