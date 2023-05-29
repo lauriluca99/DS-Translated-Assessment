@@ -1,4 +1,4 @@
-Questions:
+### Questions:
 
 How would you design a data pipeline for a Machine Translation system? (e.g. necessary steps, main challenges, etc.)
 
@@ -6,7 +6,7 @@ What would you do to collect new and good quality data from the web? Assume you 
 
 Suppose that low quality translations created by the system are post-edited by professional translators. How would you use this process to monitor the quality of the Machine Translation system?
 
-Answers:
+### Answers:
 
 1- Designing a data pipeline for a Machine Translation system involves several steps. Certainly is very important to collect a large corpus of bilingual texts and clean/preprocess these data, usually this involves tokenization, sentence segmentation, removing special characters, and normalizing the text. After that is necessary to split the data into training, validation, and test sets. The training set should be the largest portion to ensure effective model training. Now we can train a Machine Translation model using a suitable algorithm. Lastly you will have to evaluate the system through different metrics and evaluate its effectiveness and efficiency.
 
