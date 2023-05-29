@@ -15,8 +15,8 @@
 1- The purpose of the orders_items table is to establish a relationship between orders and products. It stores the details of each product within an order.
 
 2- 
-### SELECT country, AVG(order_cost) AS average_order_cost
-### FROM orders
-### JOIN customers ON orders.id_customer = customers.id
-### GROUP BY country;
+**SELECT** country, **AVG**(order_cost) **AS** average_order_cost
+**FROM** orders
+**JOIN** customers **ON** orders.id_customer = customers.id
+**GROUP BY** country;
 
